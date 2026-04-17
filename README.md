@@ -12,5 +12,5 @@ As an Information Systems student at KSU and a fleet manager, I am building this
 
 ## Research & Sources
 1. [Turo Damage Reporting Guide](https://support.turo.com/hc/en-us/articles/203990840-Reporting-damage) - Logic for triage questions.
-2. [Python Decision Tree Tutorial](https://www.geeksforgeeks.org/python-decision-tree-implementation/) - Code inspiration for the agent's logic flow.
+2. [W3Schools Python If...Else](https://www.w3schools.com/python/python_conditions.asp) - Documentation for the conditional logic used in the damage assessment engine.
 3. [Your Mechanic - Repair Costs](https://www.yourmechanic.com/services) - Source for my external data file population.
