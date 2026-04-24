@@ -9,6 +9,7 @@ As an Information Systems student at KSU and a fleet manager, I am building this
 * **Severity Scoring:** Assigns a level (Low, Medium, High) based on logic.
 * **Actionable Checklists:** Tells the user exactly what photos and documents are needed for a claim.
 * **Cost Estimation:** References a data file to provide preliminary repair budget estimates.
+* **Persistent Logging: Stores multiple damage assessments during a single session and generates a final summary report upon exit.
 
 ## Research & Sources
 1. [Turo Damage Reporting Guide](https://support.turo.com/hc/en-us/articles/203990840-Reporting-damage) - Logic for triage questions.
