@@ -6,8 +6,8 @@
 - [x] Research decision tree logic.
 
 ## Sprint 2: Logic
-- [ ] Define if/elif severity scoring.
-- [ ] Create user input functions.
+- [x] Define if/elif severity scoring.
+- [x] Create user input functions.
 
 ## Sprint 3: Data
 - [ ] Integrate repair cost file.
