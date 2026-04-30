@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Damage Sentinel - Final Splash Screen</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .slide {
+            width: 1280px;
+            height: 720px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+            border: 1px solid #333;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .left-content {
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .project-title {
+            font-size: 72px;
+            font-weight: 800;
+            margin: 0;
+            letter-spacing: -1px;
+            background: linear-gradient(to right, #4db8ff, #007acc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 24px;
+            color: #888;
+            margin: 10px 0 50px 0;
+            font-weight: 300;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 60px;
+        }
+
+        .feature-item {
+            font-size: 18px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            color: #ccc;
+        }
+
+        .feature-item::before {
+            content: "→";
+            color: #4db8ff;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .architect-card {
+            border-top: 1px solid #333;
+            padding-top: 30px;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .title {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #4db8ff;
+        }
+
+        .right-image {
+            background-color: #000;
+            border-left: 1px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-image img {
+            max-width: 90%;
+            max-height: 90%;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+        <div class="left-content">
+            <h1 class="project-title">V-Damage Sentinel</h1>
+            <p class="tagline">AI Vehicle Inspection & Cost Analysis</p>
+            
+            <ul class="feature-list">
+                <li class="feature-item">Automated Damage Triage Engine</li>
+                <li class="feature-item">External Repair Cost Integration</li>
+                <li class="feature-item">Dynamic User Input Validation</li>
+                <li class="feature-item">Comprehensive Final Reporting</li>
+            </ul>
+
+            <div class="architect-card">
+                <div class="name">Michael Cole</div>
+                <div class="title">Lead Project Architect</div>
+            </div>
+        </div>
+
+        <div class="right-image">
+            <img src="triage_concept.png" alt="Sentinel Application Interface Visualization">
+        </div>
+    </div>
+
+</body>
+</html>
