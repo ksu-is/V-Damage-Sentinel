@@ -1,0 +1,5 @@
+windshield,500
+bumper,1200
+tire,200
+mirror,150
+headlight,350
